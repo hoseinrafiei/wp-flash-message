@@ -12,7 +12,7 @@ To use this library just put it in your plugin / theme files and then use it lik
     PREFIX_Flash::warning(__("A valid category is required.", 'text-domain'));
     PREFIX_Flash::error(__("Something went wrong!", 'text-domain'));
 
-To show not dismissible notices you can send false as second variable.
+To show not dismissible notices you can send false as second parameter.
 
     PREFIX_Flash::success(__("Your data is saved completely.", 'text-domain'), false);
     PREFIX_Flash::info(__("There is an update for your theme.", 'text-domain'), false);
